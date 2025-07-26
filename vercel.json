@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/get-call-token.js", "use": "@vercel/node" }
-  ]
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
-
