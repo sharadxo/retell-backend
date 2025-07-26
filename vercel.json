@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/get-call-token.js", "use": "@vercel/node" }
+  ]
+}
